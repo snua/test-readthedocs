@@ -7,10 +7,10 @@ Welcome to anuar-sphinx-test's documentation!
 =============================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :caption: Contents:
 
-
+   tutorials/tutorial1
 
 Indices and tables
 ==================
@@ -57,5 +57,25 @@ True   True   True
 
 .. figure::  images/sweat.jpg
    :align:   center
+   
+   
+This is a statement.
+
+.. warning::
+
+   Never, ever, use this code!
+
+.. versionadded:: 0.0.1
+
+It's okay to use this code.
 
    Proof that getting rich is mostly luck.
+   
+ Here is something I want to talk about::
+
+    def my_fn(foo, bar=True):
+        """A really useful function.
+
+        Returns None
+        """
+
