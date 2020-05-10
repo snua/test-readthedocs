@@ -12,6 +12,13 @@ Welcome to anuar-sphinx-test's documentation!
 
    tutorials/tutorial1
 
+
+Tutorial 1: Testing the code
+=============================================
+vsdvsdv
+:doc: 'tutorials/tutorial1'
+
+
 Indices and tables
 ==================
 
@@ -79,3 +86,7 @@ It's okay to use this code.
         Returns None
         """
 
+
+A link-  :ref:`Internal Headline`
+
+A link-  :doc:`tutorial1`
